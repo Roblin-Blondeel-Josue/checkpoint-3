@@ -23,6 +23,7 @@ export default function addCountry() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          width: "90%",
         }}
       >
         <AddCountryForm />
@@ -50,7 +51,7 @@ const AddCountryForm = () => {
     ],
   });
   return (
-    <Card sx={{ display: "flex", flexDirection: "column", width: "20vw" }}>
+    <Card sx={{ display: "flex", flexDirection: "column", width: "20rem" }}>
       <CardHeader title="Ajouter un pays" />
       <CardContent
         sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}

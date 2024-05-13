@@ -18,7 +18,13 @@ export default function Header() {
         Checkpoint : frontend
       </Typography>
       <Link style={{ textDecoration: "none", color: "#F4F6F8" }} href="/">
-        Countries
+        Pays
+      </Link>
+      <Link
+        style={{ textDecoration: "none", color: "#F4F6F8" }}
+        href="/country/add"
+      >
+        Ajouter
       </Link>
     </header>
   );

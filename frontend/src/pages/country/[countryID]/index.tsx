@@ -28,6 +28,7 @@ export default function CountryPage() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          margin: "2rem 2rem",
         }}
       >
         <CountryCard country={data?.country} />
@@ -40,7 +41,7 @@ const CountryCard = ({ country }: { country?: countryCard }) => {
   return (
     <Card
       style={{
-        width: "15vw",
+        width: "15rem",
         justifyContent: "center",
         display: "flex",
         flexDirection: "column",

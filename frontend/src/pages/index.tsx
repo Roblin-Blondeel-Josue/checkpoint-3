@@ -17,6 +17,8 @@ export default function Home() {
           justifyContent: "center",
           alignItems: "center",
           gap: "1rem",
+          width: "80%",
+          flexWrap: "wrap",
         }}
       >
         {data?.countries?.map((country: any, index: number) => {
